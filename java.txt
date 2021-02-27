@@ -1,0 +1,139 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication1;
+
+import java.util.Scanner;
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static int carpim(int x)
+    {
+        int y=x*5;
+        return y;
+    }
+     public static int buyuk(int x, int y)
+    {
+        if(x>y){
+        return x;
+        }
+        else 
+        {
+        return y;
+        }
+    }
+    public static int faktöriyel(int x){
+      int hesapla=1;
+        for(int i=x;i>=1;i--){
+         hesapla=hesapla*i;
+         }       
+        return hesapla;
+    }
+     
+     
+    public static void main(String[] args) {
+       
+     /*   
+      * int i;int toplam=0;
+        for(i=1;i<=100;i++){
+        toplam=toplam+i;
+        }System.out.println("1'Den 100'e kadar sayýlarýn toplamý"+toplam);
+        */
+         
+        /*
+         * int i;
+        for(i=10;i>=0;i--){
+        System.out.println(i);
+        }
+       */
+        
+       /*
+        * int i;
+        for(i=0;i<=20;i++){
+        if(i%2==0){
+        System.out.println(i+"=çift sayý");
+        }
+        else
+        {
+        System.out.println(i+"=tek sayý");
+        }
+        }
+        */
+        /*
+        Scanner giris =new Scanner(System.in);
+         System.out.print("sayý giriniz====>");
+         int sayý=giris.nextInt();
+         System.out.println("Girdiðiniz sayýnýn 10 katý====>" + sayý*10);
+          */
+        /* 
+        Scanner giris =new Scanner(System.in);
+         System.out.print("sayý giriniz====>");
+         int sayý=giris.nextInt();         
+         Scanner veri =new Scanner(System.in);
+         System.out.print("metin giriniz====>");
+         String  deger=veri.nextLine();
+         for(int i=1; i<=sayý;i++){         
+         System.out.println("Girdiðiniz metin====>" + deger);         
+         }
+         */
+         /*
+        Scanner giris =new Scanner(System.in);
+         System.out.print("sayý giriniz====>");
+         int vize=giris.nextInt();    
+         
+         Scanner giris1 =new Scanner(System.in);
+         System.out.print("metin giriniz====>");
+         int  finall =giris1.nextInt();
+         
+        int ortalama=(vize*40)/100+ (finall*60)/100;
+        
+        if(ortalama>=60){
+        System.out.println("GEÇTÝ");
+        }
+        else{
+        System.out.println("KALDI");
+        }
+         */
+        
+        /*
+        Scanner sayý =new Scanner(System.in);
+         System.out.print("sayý giriniz====>");
+         int faktöriyel=sayý.nextInt();  
+         int hesapla=1;
+         for(int i=faktöriyel;i>=1;i--){
+         hesapla=hesapla*i;
+         }         
+         System.out.println("sayý faktöriyeli====>"+ hesapla);
+         */
+        
+        /*Fonksiyon tanýmlama*/
+        /*
+        int i=7;
+        int sonuc=carpim(i);
+        System.out.println(sonuc);
+        */
+       /*
+        Scanner sayý =new Scanner(System.in);
+        System.out.print("sayý giriniz====>");
+        int  x =sayý.nextInt();
+         
+         Scanner sayý1 =new Scanner(System.in);
+         System.out.print("sayý giriniz====>");
+        int  y =sayý1.nextInt();
+        int bs= buyuk(x,y);
+        System.out.println(bs);
+        */
+        
+        /*
+        Scanner sayý =new Scanner(System.in);
+        System.out.print("sayý giriniz====>");
+        int  x =sayý.nextInt();
+        int sonuc=faktöriyel(x);
+        System.out.println("sayýnýn faktöriyeli====>"+ sonuc);
+         
+        */
+    }
+}
